@@ -1,0 +1,10 @@
+hw_attr:
+input_num:1
+capturing_input_id:0
+camera_opend_count:0
+set_capture_pause:0
+capture_state_pause:0
+rawdata_capture_set:0
+rawdata_capture_done:0
+dual_mipi_once_had_init:0
+dual_sensors_init:0

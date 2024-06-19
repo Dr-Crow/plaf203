@@ -1,0 +1,8 @@
+User:		0
+System:		5 (ak_i2c_xfer+0x210/0x32c [ak_i2c])
+Skipped:	0
+Half:		4
+Word:		1
+DWord:		0
+Multi:		0
+User faults:	0 (ignored)

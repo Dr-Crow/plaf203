@@ -1,0 +1,7 @@
+DRIVER=ak-uart
+OF_NAME=uart1
+OF_FULLNAME=/soc/uart1@20138000
+OF_COMPATIBLE_0=anyka,ak39ev330-uart1
+OF_COMPATIBLE_N=1
+OF_ALIAS_0=uart1
+MODALIAS=of:Nuart1T<NULL>Canyka,ak39ev330-uart1

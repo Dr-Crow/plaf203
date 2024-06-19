@@ -1,0 +1,2 @@
+UUID=YYYYYYYYYYYYY #CENSORING this as I am not sure if its sensitive or not
+AUTHKEY=XXXXXXXXXXXXXXX #CENSORING this as I am not sure if its sensitive or not

@@ -1,0 +1,5 @@
+heap-name: dma_reserved_heap
+heap-id: 1
+base-address: 0x81400000
+size: 0x2000000
+type: prereserved

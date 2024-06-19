@@ -1,0 +1,4 @@
+core_pll: 	640 MHz
+vclk: 		320 MHz
+adc_rate: 	125000	Hz
+dac_rate: 	131578	Hz

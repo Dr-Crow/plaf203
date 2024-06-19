@@ -1,0 +1,5 @@
+OF_NAME=cpu
+OF_FULLNAME=/cpus/cpu@0
+OF_TYPE=cpu
+OF_COMPATIBLE_0=arm, arm926ej-s
+OF_COMPATIBLE_N=1

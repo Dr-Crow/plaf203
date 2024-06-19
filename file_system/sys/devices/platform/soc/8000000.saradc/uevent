@@ -1,0 +1,5 @@
+OF_NAME=saradc
+OF_FULLNAME=/soc/saradc@08000000
+OF_COMPATIBLE_0=anyka,ak39ev330-sar-adc
+OF_COMPATIBLE_N=1
+MODALIAS=of:NsaradcT<NULL>Canyka,ak39ev330-sar-adc

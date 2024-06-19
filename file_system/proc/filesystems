@@ -1,0 +1,17 @@
+nodev	sysfs
+nodev	rootfs
+nodev	ramfs
+nodev	bdev
+nodev	proc
+nodev	tmpfs
+nodev	devtmpfs
+nodev	debugfs
+nodev	sockfs
+nodev	pipefs
+nodev	devpts
+	squashfs
+	vfat
+	msdos
+nodev	jffs2
+	yaffs
+	yaffs2

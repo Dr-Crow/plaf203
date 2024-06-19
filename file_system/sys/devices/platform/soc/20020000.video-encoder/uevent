@@ -1,0 +1,6 @@
+DRIVER=ak-uio
+OF_NAME=video-encoder
+OF_FULLNAME=/soc/video-encoder@20020000
+OF_COMPATIBLE_0=anyka,ak39ev330-uio-vencoder
+OF_COMPATIBLE_N=1
+MODALIAS=of:Nvideo-encoderT<NULL>Canyka,ak39ev330-uio-vencoder

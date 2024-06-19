@@ -1,0 +1,4 @@
+[<bf19e2a0>] ssv6xxx_rx_task+0xfe0/0x115c [ssv6x5x]
+[<c002fe1c>] kthread+0xc8/0xe4
+[<c000a288>] ret_from_fork+0x14/0x2c
+[<ffffffff>] 0xffffffff

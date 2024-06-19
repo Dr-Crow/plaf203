@@ -1,0 +1,6 @@
+DRIVER=sc2232h
+OF_NAME=camera
+OF_FULLNAME=/soc/i2c0@20150000/camera@0x30
+OF_COMPATIBLE_0=anyka,sensor0
+OF_COMPATIBLE_N=1
+MODALIAS=i2c:sensor0

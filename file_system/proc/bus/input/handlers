@@ -1,0 +1,2 @@
+N: Number=0 Name=leds
+N: Number=1 Name=evdev Minor=64

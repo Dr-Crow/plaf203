@@ -1,0 +1,4 @@
+[<c00196b8>] do_wait+0x1b8/0x1e4
+[<c0019acc>] SyS_wait4+0x74/0xe0
+[<c000a1c0>] ret_fast_syscall+0x0/0x44
+[<ffffffff>] 0xffffffff

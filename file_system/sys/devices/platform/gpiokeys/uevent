@@ -1,0 +1,6 @@
+DRIVER=akgpio-keys
+OF_NAME=gpiokeys
+OF_FULLNAME=/gpiokeys
+OF_COMPATIBLE_0=anyka,ak39ev330-gpiokeys
+OF_COMPATIBLE_N=1
+MODALIAS=of:NgpiokeysT<NULL>Canyka,ak39ev330-gpiokeys

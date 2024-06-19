@@ -1,0 +1,17 @@
+00010000-000b0000 r-xp 00000000 1f:05 309        /bin/busybox
+000bf000-000c1000 r-xp 0009f000 1f:05 309        /bin/busybox
+000c1000-000c2000 rwxp 000a1000 1f:05 309        /bin/busybox
+000c2000-000c3000 rwxp 00000000 00:00 0 
+00eff000-00f00000 rwxp 00000000 00:00 0          [heap]
+b6ee0000-b6f5f000 r-xp 00000000 1f:05 237        /lib/libuClibc-1.0.28.so
+b6f5f000-b6f6e000 ---p 00000000 00:00 0 
+b6f6e000-b6f6f000 r-xp 0007e000 1f:05 237        /lib/libuClibc-1.0.28.so
+b6f6f000-b6f70000 rwxp 0007f000 1f:05 237        /lib/libuClibc-1.0.28.so
+b6f70000-b6f86000 rwxp 00000000 00:00 0 
+b6f86000-b6f8c000 r-xp 00000000 1f:05 262        /lib/ld-uClibc-1.0.28.so
+b6f99000-b6f9b000 rwxp 00000000 00:00 0 
+b6f9b000-b6f9c000 r-xp 00005000 1f:05 262        /lib/ld-uClibc-1.0.28.so
+b6f9c000-b6f9d000 rwxp 00006000 1f:05 262        /lib/ld-uClibc-1.0.28.so
+be978000-be999000 rw-p 00000000 00:00 0          [stack]
+bec46000-bec47000 r-xp 00000000 00:00 0          [sigpage]
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]

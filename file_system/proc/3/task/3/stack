@@ -1,0 +1,4 @@
+[<c0032cec>] smpboot_thread_fn+0xc8/0x170
+[<c002fe1c>] kthread+0xc8/0xe4
+[<c000a288>] ret_from_fork+0x14/0x2c
+[<ffffffff>] 0xffffffff

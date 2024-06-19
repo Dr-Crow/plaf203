@@ -1,0 +1,6 @@
+DRIVER=ak-hshcd
+OF_NAME=usb
+OF_FULLNAME=/soc/usb@20200000
+OF_COMPATIBLE_0=anyka,ak39ev330-usb
+OF_COMPATIBLE_N=1
+MODALIAS=of:NusbT<NULL>Canyka,ak39ev330-usb

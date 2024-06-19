@@ -1,0 +1,6 @@
+DRIVER=ak-pinctrl
+OF_NAME=gpio
+OF_FULLNAME=/soc/gpio@20170000
+OF_COMPATIBLE_0=anyka,ak39ev330-gpio
+OF_COMPATIBLE_N=1
+MODALIAS=of:NgpioT<NULL>Canyka,ak39ev330-gpio

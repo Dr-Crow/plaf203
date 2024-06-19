@@ -1,0 +1,6 @@
+DRIVER=ak-rtc
+OF_NAME=rtc
+OF_FULLNAME=/rtc
+OF_COMPATIBLE_0=anyka,ak39ev330-rtc
+OF_COMPATIBLE_N=1
+MODALIAS=of:NrtcT<NULL>Canyka,ak39ev330-rtc

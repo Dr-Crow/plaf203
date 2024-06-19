@@ -1,0 +1,7 @@
+PRODUCT=19/1/1/100
+NAME="gpiokeys"
+PHYS="gpio-keys/input0"
+PROP=0
+EV=3
+KEY=800
+MODALIAS=input:b0019v0001p0001e0100-e0,1,kramlsfw

@@ -1,0 +1,1 @@
+gpio_num:11  debounce-interval:100ms  report_code:11  irq_num:51

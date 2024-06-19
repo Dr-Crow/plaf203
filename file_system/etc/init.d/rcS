@@ -1,0 +1,48 @@
+#!/bin/sh
+
+# Set mdev
+echo /sbin/mdev > /proc/sys/kernel/hotplug
+/sbin/mdev -s && echo "mdev is ok......"
+
+# networking
+ifconfig lo up
+
+mount -t jffs2 /dev/mtdblock6 /mnt/config
+
+. /etc/common.env
+. /etc/profile.env
+read_sensor_id.sh
+. /etc/sensor_type.env
+
+# enable wifi gpio #
+echo $G_USB_WIFI_GPIO > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio$G_USB_WIFI_GPIO/direction
+echo 0 > /sys/class/gpio/gpio$G_USB_WIFI_GPIO/value
+
+read_wifi_module.sh
+. /etc/wifi_type.env
+
+#upload jpg path
+mkdir /tmp/tmpfs
+
+echo 100 > /proc/sys/vm/swappiness
+echo 8388608 > /sys/block/zram0/disksize
+mkswap /dev/zram0
+swapon /dev/zram0
+
+#telnetd
+telnetd &
+jksdk_tcp_daemon.sh &
+
+if [ -e "/mnt/config/audio_record_file.pcm" ];then
+    size=`stat -c %s /mnt/config/audio_record_file.pcm`
+    if [ $size -ge 204800 ];then
+        echo "record pcm is too big"
+        rm /mnt/config/audio_record_file.pcm
+    fi
+fi
+
+# Run init script
+if [ -f /system/init/app_init.sh ]; then
+    /system/init/app_init.sh &
+fi

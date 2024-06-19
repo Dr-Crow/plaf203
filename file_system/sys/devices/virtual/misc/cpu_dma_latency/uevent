@@ -1,0 +1,3 @@
+MAJOR=10
+MINOR=63
+DEVNAME=cpu_dma_latency

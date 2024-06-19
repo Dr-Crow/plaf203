@@ -1,0 +1,41 @@
+<5>Creating 7 MTD partitions on "spi0.0":
+<5>0x000000000000-0x000000032000 : "UBOOT"
+<5>0x000000032000-0x000000033000 : "ENV"
+<5>0x000000033000-0x000000034000 : "ENVBK"
+<5>0x000000034000-0x000000040000 : "DTB"
+<5>0x000000040000-0x0000001d0000 : "KERNEL"
+<5>0x0000001d0000-0x000000740000 : "ROOTFS"
+<5>0x000000740000-0x000000800000 : "CONFIG"
+
+
+dev:    size   erasesize  name
+mtd0: 00032000 00001000 "UBOOT"
+mtd1: 00001000 00001000 "ENV"
+mtd2: 00001000 00001000 "ENVBK"
+mtd3: 0000c000 00001000 "DTB"
+mtd4: 00190000 00001000 "KERNEL"
+mtd5: 00570000 00001000 "ROOTFS"
+mtd6: 000c0000 00001000 "CONFIG"
+
+
+
+Running Command: df -h
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.3M      4.3M         0 100% /
+devtmpfs                 13.4M         0     13.4M   0% /dev
+tmpfs                    13.4M         0     13.4M   0% /dev
+tmpfs                    13.4M      4.0K     13.4M   0% /tmp
+tmpfs                    13.4M         0     13.4M   0% /run
+/dev/mtdblock6          768.0K    132.0K    636.0K  17% /mnt/config
+/dev/mmcblk0p1           29.7G    702.5M     29.0G   2% /mnt/config/record
+
+mount -t jffs2 /dev/mtdblock6 /mnt/config
+
+mtd0_UBOOT.backup: OpenPGP Secret Key
+mtd1_ENV.backup: data
+mtd2_ENVBK.backup: data
+mtd3_DTB.backup: Device Tree Blob version 17, size=40205, boot CPU=0, string block size=1785, DT structure block size=38364
+mtd4_KERNEL.backup: u-boot legacy uImage, Linux-4.4.192V2.1, Linux/ARM, OS Kernel Image (Not compressed), 1595680 bytes, Sat Apr  2 09:18:09 2022, Load Address: 0X80008000, Entry Point: 0X80008040, Header CRC: 0X54015770, Data CRC: 0X10611F7A
+mtd5_ROOTFS.backup: Squashfs filesystem, little endian, version 4.0, xz compressed, 4362536 bytes, 430 inodes, blocksize: 131072 bytes, created: Mon Jul 18 11:53:44 2022
+mtd6_CONFIG.backup: Linux jffs2 filesystem data little endian
+

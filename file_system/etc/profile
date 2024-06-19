@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Set PS1
+if [ "$PS1" ]; then
+    if [ "`id -u`" -eq 0 ]; then
+        export PS1='[\u@\h:\W]# '
+    else
+        export PS1='[\u@\h:\W]$ '
+    fi
+fi
+
+. /etc/common.env
+. /etc/wifi_type.env
+. /etc/sensor_type.env
+. /etc/profile.env
+
+# Set directoty and file default create permission
+umask 022

@@ -1,0 +1,13 @@
+           CPU0       
+  1:          0  module-irq   1 Edge      ak_camera
+  2:          0  module-irq   2 Edge      video-encoder
+  4:     230215  module-irq   4 Edge      20100000.mmc0
+  5:         26  module-irq   5 Edge      20108000.mmc1
+  8:      11103  module-irq   8 Edge      20120000.spi0
+ 10:       5571  module-irq  10 Edge      20130000.uart0
+ 12:          0  module-irq  12 Edge      l2
+ 18:       4348  module-irq  18 Edge      ak-hshcd:usb1
+ 19:          1  module-irq  19 Edge      otgdma
+ 39:      10984  sysctrl-irq  39 Edge      ak_ce_timer irq
+ 51:          0  ak_gpio_edge  11 Edge      reset
+Err:          0

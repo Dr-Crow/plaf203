@@ -1,0 +1,5 @@
+OF_NAME=system-control-ic
+OF_FULLNAME=/system-control-ic
+OF_COMPATIBLE_0=anyka,ak39ev330-system-ic
+OF_COMPATIBLE_N=1
+MODALIAS=of:Nsystem-control-icT<NULL>Canyka,ak39ev330-system-ic

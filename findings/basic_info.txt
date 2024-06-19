@@ -1,0 +1,189 @@
+Running Command: uname -a
+
+Linux ipc 4.4.192V2.1 #6 Sat Apr 2 17:18:03 CST 2022 armv5tejl GNU/Linux
+Running Command: df -h
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.3M      4.3M         0 100% /
+devtmpfs                 13.4M         0     13.4M   0% /dev
+tmpfs                    13.4M         0     13.4M   0% /dev
+tmpfs                    13.4M      4.0K     13.4M   0% /tmp
+tmpfs                    13.4M         0     13.4M   0% /run
+/dev/mtdblock6          768.0K    132.0K    636.0K  17% /mnt/config
+/dev/mmcblk0p1           29.7G    702.5M     29.0G   2% /mnt/config/record
+
+
+Running Command: whoami
+root
+
+
+Running Command: groups
+root
+
+
+Running Command: hostid
+00000000
+
+
+Running Command: id
+uid=0(root) gid=0(root)
+
+
+Running Command: lsof
+1	/bin/busybox	/dev/console
+1	/bin/busybox	/dev/console
+1	/bin/busybox	/dev/console
+434	/bin/busybox	/dev/null
+434	/bin/busybox	/dev/console
+434	/bin/busybox	/dev/console
+434	/bin/busybox	/usr/sbin/jksdk_tcp_daemon.sh
+435	/bin/busybox	/dev/null
+435	/bin/busybox	/dev/console
+435	/bin/busybox	/dev/console
+435	/bin/busybox	/system/init/app_init.sh
+436	/bin/busybox	/dev/console
+436	/bin/busybox	/dev/console
+436	/bin/busybox	/dev/console
+437	/bin/busybox	/dev/null
+437	/bin/busybox	/dev/null
+437	/bin/busybox	/dev/null
+437	/bin/busybox	socket:[847]
+438	/usr/sbin/jksdk_tcp	/dev/null
+438	/usr/sbin/jksdk_tcp	/dev/console
+438	/usr/sbin/jksdk_tcp	/dev/console
+438	/usr/sbin/jksdk_tcp	socket:[854]
+478	/bin/busybox	/dev/null
+478	/bin/busybox	/dev/console
+478	/bin/busybox	/dev/console
+478	/bin/busybox	/usr/sbin/upgrade_on_sdcard.sh
+480	/bin/busybox	/dev/null
+480	/bin/busybox	/mnt/config/record/finding/basic_info.txt
+480	/bin/busybox	/dev/console
+480	/bin/busybox	/mnt/config/record/tmp_test.sh
+480	/bin/busybox	/dev/console
+
+
+Running Command: mpstat
+
+
+Running Command: stat
+
+
+Running Command: iostat
+Linux 4.4.192V2.1 (ipc) 	01/01/70 	_armv5tejl_	(1 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           5.17    0.00   53.23   14.08    0.00   27.52
+
+Device:            tps   Blk_read/s   Blk_wrtn/s   Blk_read   Blk_wrtn
+zram0             0.39         2.07         1.03         16          8
+mtdblock5         5.81       356.59         0.00       2760          0
+mmcblk0          16.15       992.89         0.00       7685          0
+mmcblk0p1        16.02       991.86         0.00       7677          0
+
+
+
+Running Command: blkid
+
+
+Running Command: free
+             total         used         free       shared      buffers
+Mem:         27492        17784         9708            4         5280
+-/+ buffers:              12504        14988
+Swap:         8188            0         8188
+
+
+Running Command: lsusb
+Bus 001 Device 002: ID 8065:6000
+Bus 001 Device 001: ID 1d6b:0002
+
+
+Running Command: top -b -n 1
+Mem: 17832K used, 9660K free, 0K shrd, 3198818864K buff, 690353K cached
+CPU:  0.0% usr  9.0% sys  0.0% nic 90.9% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 0.08 0.02 0.01 1/57 498
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  498   480 root     R     1508  5.4   0  9.0 top -b -n 1
+    1     0 root     S     1508  5.4   0  0.0 init
+  480   478 root     S     1504  5.4   0  0.0 {tmp_test.sh} /bin/sh /mnt/config/record/tmp_test.sh
+  435     1 root     S     1504  5.4   0  0.0 {app_init.sh} /bin/sh /system/init/app_init.sh
+  478   435 root     S     1504  5.4   0  0.0 {upgrade_on_sdca} /bin/sh /usr/sbin/upgrade_on_sdcard.sh
+  436     1 root     S     1504  5.4   0  0.0 /sbin/getty -L console 115200 vt100
+  434     1 root     S     1500  5.4   0  0.0 {jksdk_tcp_daemo} /bin/sh /usr/sbin/jksdk_tcp_daemon.sh
+  437     1 root     S     1500  5.4   0  0.0 telnetd
+  438   434 root     S     1040  3.7   0  0.0 jksdk_tcp
+  122     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+    8     2 root     SW       0  0.0   0  0.0 [kworker/u2:1]
+  386     2 root     SW       0  0.0   0  0.0 [mmcqd/0]
+  247     2 root     SW       0  0.0   0  0.0 [spi0]
+  311     2 root     SWN      0  0.0   0  0.0 [jffs2_gcd_mtd6]
+    3     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+  455     2 root     SW       0  0.0   0  0.0 [ssv6xxx_hci_tx_]
+   90     2 root     SW<      0  0.0   0  0.0 [bioset]
+  129     2 root     SW       0  0.0   0  0.0 [kswapd0]
+  223     2 root     SW<      0  0.0   0  0.0 [bioset]
+  226     2 root     SW<      0  0.0   0  0.0 [bioset]
+  229     2 root     SW<      0  0.0   0  0.0 [bioset]
+  220     2 root     SW<      0  0.0   0  0.0 [bioset]
+   89     2 root     SW<      0  0.0   0  0.0 [crypto]
+  239     2 root     SW<      0  0.0   0  0.0 [bioset]
+   92     2 root     SW<      0  0.0   0  0.0 [kblockd]
+  232     2 root     SW<      0  0.0   0  0.0 [bioset]
+  256     2 root     SW<      0  0.0   0  0.0 [bioset]
+  261     2 root     SW<      0  0.0   0  0.0 [bioset]
+  266     2 root     SW<      0  0.0   0  0.0 [bioset]
+  251     2 root     SW<      0  0.0   0  0.0 [bioset]
+  276     2 root     SW<      0  0.0   0  0.0 [bioset]
+  281     2 root     SW<      0  0.0   0  0.0 [bioset]
+  298     2 root     SW<      0  0.0   0  0.0 [deferwq]
+  299     2 root     SW       0  0.0   0  0.0 [kworker/0:2]
+  300     2 root     SW<      0  0.0   0  0.0 [kworker/0:1H]
+  235     2 root     SW<      0  0.0   0  0.0 [bioset]
+  332     2 root     SW<      0  0.0   0  0.0 [usb_otg_wq]
+  341     2 root     SW<      0  0.0   0  0.0 [cfg80211]
+  354     2 root     SW       0  0.0   0  0.0 [dma_reserved_he]
+  367     2 root     SW       0  0.0   0  0.0 [kworker/u2:2]
+  385     2 root     SW<      0  0.0   0  0.0 [bioset]
+    2     0 root     SW       0  0.0   0  0.0 [kthreadd]
+  271     2 root     SW<      0  0.0   0  0.0 [bioset]
+    4     2 root     SW       0  0.0   0  0.0 [kworker/0:0]
+    5     2 root     SW<      0  0.0   0  0.0 [kworker/0:0H]
+    6     2 root     SW       0  0.0   0  0.0 [kworker/u2:0]
+    7     2 root     SW       0  0.0   0  0.0 [kdevtmpfs]
+  454     2 root     SW<      0  0.0   0  0.0 [ssv6xxx_hci_wq]
+   87     2 root     SW<      0  0.0   0  0.0 [writeback]
+  456     2 root     SW<      0  0.0   0  0.0 [ssv6xxx_cong_wq]
+  457     2 root     SW       0  0.0   0  0.0 [ssv6xxx_rx_task]
+  458     2 root     SW<      0  0.0   0  0.0 [ssv6xxx_house_k]
+  459     2 root     SW<      0  0.0   0  0.0 [ssv6xxx_tx_done]
+  460     2 root     SW<      0  0.0   0  0.0 [ssv6xxx_scan_wq]
+  180     2 root     SW       0  0.0   0  0.0 [fsnotify_mark]
+  214     2 root     SW<      0  0.0   0  0.0 [bioset]
+  217     2 root     SW<      0  0.0   0  0.0 [bioset]
+
+
+
+Running Command: cat /proc/cpuinfo
+processor	: 0
+model name	: ARM926EJ-S rev 5 (v5l)
+BogoMIPS	: 351.43
+Features	: swp half fastmult edsp java 
+CPU implementer	: 0x41
+CPU architecture: 5TEJ
+CPU variant	: 0x0
+CPU part	: 0x926
+CPU revision	: 5
+
+Hardware	: AK39EV330
+Revision	: 0000
+Serial		: 0000000000000000
+
+
+Running Command: cat /proc/mtd
+dev:    size   erasesize  name
+mtd0: 00032000 00001000 "UBOOT"
+mtd1: 00001000 00001000 "ENV"
+mtd2: 00001000 00001000 "ENVBK"
+mtd3: 0000c000 00001000 "DTB"
+mtd4: 00190000 00001000 "KERNEL"
+mtd5: 00570000 00001000 "ROOTFS"
+mtd6: 000c0000 00001000 "CONFIG"

@@ -1,0 +1,5 @@
+OF_NAME=leds
+OF_FULLNAME=/leds
+OF_COMPATIBLE_0=anyka,ak39ev330-leds
+OF_COMPATIBLE_N=1
+MODALIAS=of:NledsT<NULL>Canyka,ak39ev330-leds

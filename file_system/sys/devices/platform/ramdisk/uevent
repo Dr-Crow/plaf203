@@ -1,0 +1,5 @@
+OF_NAME=ramdisk
+OF_FULLNAME=/ramdisk
+OF_COMPATIBLE_0=anyka,ak39ev330-ramdisk
+OF_COMPATIBLE_N=1
+MODALIAS=of:NramdiskT<NULL>Canyka,ak39ev330-ramdisk

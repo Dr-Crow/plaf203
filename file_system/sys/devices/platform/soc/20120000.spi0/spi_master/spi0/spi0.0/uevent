@@ -1,0 +1,6 @@
+DRIVER=ak-spiflash
+OF_NAME=spi-flash
+OF_FULLNAME=/soc/spi0@20120000/spi-flash@0
+OF_COMPATIBLE_0=anyka,ak-spiflash
+OF_COMPATIBLE_N=1
+MODALIAS=spi:ak-spiflash

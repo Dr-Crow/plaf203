@@ -1,0 +1,3 @@
+nr_tags=128, reserved_tags=0, bits_per_word=5
+nr_free=128, nr_reserved=0
+active_queues=0

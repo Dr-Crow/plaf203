@@ -1,0 +1,5 @@
+OF_NAME=encrypt
+OF_FULLNAME=/soc/encrypt@20180000
+OF_COMPATIBLE_0=anyka,ak39ev330-encrypt
+OF_COMPATIBLE_N=1
+MODALIAS=of:NencryptT<NULL>Canyka,ak39ev330-encrypt

@@ -1,0 +1,7 @@
+DRIVER=ak-pwm
+OF_NAME=pwm2
+OF_FULLNAME=/pwm2
+OF_COMPATIBLE_0=anyka,ak39ev330-pwm2
+OF_COMPATIBLE_N=1
+OF_ALIAS_0=pwm2
+MODALIAS=of:Npwm2T<NULL>Canyka,ak39ev330-pwm2

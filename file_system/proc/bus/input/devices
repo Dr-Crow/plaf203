@@ -1,0 +1,10 @@
+I: Bus=0019 Vendor=0001 Product=0001 Version=0100
+N: Name="gpiokeys"
+P: Phys=gpio-keys/input0
+S: Sysfs=/devices/platform/gpiokeys/input/input0
+U: Uniq=
+H: Handlers=event0 
+B: PROP=0
+B: EV=3
+B: KEY=800
+

@@ -1,0 +1,5 @@
+OF_NAME=timer
+OF_FULLNAME=/timer
+OF_COMPATIBLE_0=anyka,ak39ev330-system-timer
+OF_COMPATIBLE_N=1
+MODALIAS=of:NtimerT<NULL>Canyka,ak39ev330-system-timer

@@ -1,0 +1,6 @@
+DRIVER=ak-watchdog
+OF_NAME=watchdog
+OF_FULLNAME=/watchdog
+OF_COMPATIBLE_0=anyka,ak39ev330-wdt
+OF_COMPATIBLE_N=1
+MODALIAS=of:NwatchdogT<NULL>Canyka,ak39ev330-wdt

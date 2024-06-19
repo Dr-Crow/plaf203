@@ -1,0 +1,7 @@
+/dev/tty             /dev/tty        5       0 system:/dev/tty
+/dev/console         /dev/console    5       1 system:console
+/dev/ptmx            /dev/ptmx       5       2 system
+ttyprintk            /dev/ttyprintk   5       3 console
+ttySAK               /dev/ttySAK   204 64-67 serial
+pty_slave            /dev/pts      136 0-1048575 pty:slave
+pty_master           /dev/ptm      128 0-1048575 pty:master

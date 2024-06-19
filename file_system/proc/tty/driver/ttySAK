@@ -1,0 +1,3 @@
+serinfo:1.0 driver revision:
+0: uart:AK mmio:0x20130000 irq:10 tx:20703 rx:0 RTS|DTR
+1: uart:AK mmio:0x20138000 irq:11 tx:0 rx:0

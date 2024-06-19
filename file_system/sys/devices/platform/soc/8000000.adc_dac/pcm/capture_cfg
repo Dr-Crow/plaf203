@@ -1,0 +1,5 @@
+capture cfg:
+ID:0
+Rate:8000 channels:1
+sample_bits:16
+period_bytes:16384 periods:16

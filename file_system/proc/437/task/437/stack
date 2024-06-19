@@ -1,0 +1,6 @@
+[<c00b4a58>] poll_schedule_timeout+0x40/0x68
+[<c00b5408>] do_select+0x5a4/0x630
+[<c00b55d8>] core_sys_select+0x144/0x40c
+[<c00b5984>] SyS_select+0xe4/0x138
+[<c000a1c0>] ret_fast_syscall+0x0/0x44
+[<ffffffff>] 0xffffffff

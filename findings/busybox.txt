@@ -1,0 +1,47 @@
+BusyBox v1.20.2 (2021-05-22 09:49:42 CST) multi-call binary.
+Copyright (C) 1998-2011 Erik Andersen, Rob Landley, Denys Vlasenko
+and others. Licensed under GPLv2.
+See source distribution for full notice.
+
+Usage: busybox [function] [arguments]...
+   or: busybox --list[-full]
+   or: busybox --install [-s] [DIR]
+   or: function [arguments]...
+
+	BusyBox is a multi-call binary that combines many common Unix
+	utilities into a single executable.  Most people will create a
+	link to busybox for each function they wish to use and BusyBox
+	will act like whatever it was invoked as.
+
+Currently defined functions:
+	[, [[, acpid, adjtimex, arp, arping, ash, awk, base64, basename, beep,
+	blockdev, bootchartd, brctl, cal, cat, catv, chat, chmod, chown,
+	chroot, chrt, chvt, cksum, clear, cmp, cp, crontab, cttyhack, cut,
+	date, dc, dd, depmod, devmem, df, dhcprelay, diff, dirname, dmesg,
+	dnsdomainname, dos2unix, du, dumpkmap, dumpleases, echo, egrep, eject,
+	env, expand, expr, fakeidentd, false, fbset, fbsplash, fgconsole,
+	fgrep, find, flashcp, fold, free, fsync, ftpd, ftpget, ftpput, fuser,
+	getopt, getty, grep, groups, halt, hd, head, hexdump, hostid, hostname,
+	hwclock, id, ifconfig, ifdown, ifenslave, ifplugd, ifup, inetd, init,
+	inotifyd, insmod, install, ionice, iostat, ip, ipaddr, ipcalc, ipcrm,
+	ipcs, iplink, iproute, iprule, iptunnel, kbd_mode, kill, killall,
+	killall5, klogd, less, linux32, linux64, linuxrc, ln, loadfont,
+	loadkmap, logger, login, logname, logread, losetup, ls, lsmod, lsof,
+	lspci, lsusb, makedevs, md5sum, mdev, mesg, mkdir, mkdosfs, mkfifo,
+	mkfs.vfat, mknod, mkswap, modinfo, modprobe, more, mount, mountpoint,
+	mv, nameif, nanddump, nandwrite, nbd-client, nc, netstat, nice,
+	nslookup, ntpd, od, passwd, pgrep, pidof, ping, pivot_root, pkill,
+	pmap, poweroff, powertop, printenv, printf, ps, pscan, pstree, pwd,
+	pwdx, rdate, rdev, readahead, readlink, readprofile, realpath, reboot,
+	renice, reset, resize, rm, rmdir, rmmod, route, rtcwake, rx, script,
+	scriptreplay, sed, setarch, setconsole, setfont, setkeycodes,
+	setlogcons, setserial, setsid, sh, sha1sum, sha256sum, sha512sum,
+	showkey, slattach, sleep, smemcap, sort, split, stat, strings, stty,
+	sum, swapoff, swapon, switch_root, sync, sysctl, syslogd, tail, tar,
+	tcpsvd, tee, telnetd, test, tftp, tftpd, time, timeout, top, touch,
+	traceroute, true, tty, tunctl, ubiattach, ubidetach, ubimkvol,
+	ubirmvol, ubirsvol, ubiupdatevol, udhcpc, udhcpd, udpsvd, umount,
+	uname, unix2dos, uptime, usleep, uudecode, uuencode, vconfig, vi,
+	volname, watch, watchdog, wc, wget, which, whoami, whois, xargs, yes
+
+ln -s /bin/busybox /tmp/bin/nanddump

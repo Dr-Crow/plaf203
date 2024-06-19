@@ -1,0 +1,10 @@
+13 0 31:5 / / ro,relatime - squashfs /dev/root ro
+14 13 0:6 / /dev rw,relatime - devtmpfs devtmpfs rw,size=13676k,nr_inodes=3419,mode=755
+15 14 0:13 / /dev rw,relatime - tmpfs tmpfs rw
+16 13 0:4 / /proc rw,relatime - proc proc rw
+17 15 0:12 / /dev/pts rw,relatime - devpts devpts rw,gid=5,mode=620,ptmxmode=000
+18 13 0:14 / /tmp rw,relatime - tmpfs tmpfs rw
+19 13 0:15 / /run rw,nosuid,nodev,relatime - tmpfs tmpfs rw,mode=755
+20 13 0:16 / /sys rw,relatime - sysfs sysfs rw
+21 13 31:6 / /mnt/config rw,relatime - jffs2 /dev/mtdblock6 rw
+22 21 179:1 / /mnt/config/record rw,relatime - vfat /dev/mmcblk0p1 rw,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro

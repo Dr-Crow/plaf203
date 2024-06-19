@@ -1,0 +1,6 @@
+DRIVER=ak-codec
+OF_NAME=adc_dac
+OF_FULLNAME=/soc/adc_dac@20110000
+OF_COMPATIBLE_0=anyka,ak39ev330-adc-dac
+OF_COMPATIBLE_N=1
+MODALIAS=of:Nadc_dacT<NULL>Canyka,ak39ev330-adc-dac

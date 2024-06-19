@@ -1,0 +1,2 @@
+UUID=01234567890123456789
+AUTHKEY=abcdefghijklmnopqrstuvwxyz123456

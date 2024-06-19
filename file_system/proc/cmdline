@@ -1,0 +1,1 @@
+console=ttySAK0,115200n8 root=/dev/mtdblock5 rootfstype=squashfs init=/sbin/init mtdparts=spi0.0:200K@0x0(UBOOT),4K@0x32000(ENV),4K@0x33000(ENVBK),48K@0x34000(DTB),1600K@0x40000(KERNEL),5568K@0x1D0000(ROOTFS),768K@0x740000(CONFIG) mem=64M memsize=64M

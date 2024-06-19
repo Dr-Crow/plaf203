@@ -1,0 +1,12 @@
+input_id:0
+input_timestamp.tv_sec:0
+input_timestamp.tv_usec:0
+input_opend_count:0
+input_route_init:0
+irq_done_state:0
+td_count:0
+frame_count:0
+fline_count:0
+fend_count:0
+nofend_count:0
+nofline_count:0

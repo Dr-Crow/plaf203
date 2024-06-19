@@ -1,0 +1,287 @@
+/system/bin/
+total 260
+drwxrwxrwx    2 1000     1000          55 Jan 17  2022 .
+drwxrwxrwx    5 1000     1000          76 Jan 17  2022 ..
+-rwxrwxrwx    1 1000     1000           0 Jan 17  2022 .gitignore
+-rwxrwxrwx    1 1000     1000      259.6K Jan 17  2022 ak_font_16.bin
+
+
+/usr/sbin/upgrade/
+total 8
+drwxrwxrwx    2 1000     1000         132 Jul  8  2022 .
+drwxrwxrwx    3 1000     1000         930 Jul 18  2022 ..
+-rwxrwxrwx    1 1000     1000        1.3K Apr  9  2022 check_for_upgrade.sh
+-rwxrwxrwx    1 1000     1000        4.2K Jul  8  2022 http_auto_upgrade.sh
+-rwxrwxrwx    1 1000     1000         590 Jun  2  2022 http_upgrade_led_ctrl.sh
+-rwxrwxrwx    1 1000     1000         836 Jun 28  2022 upgrade_jk_version.sh
+
+
+/bin/
+total 647
+drwxrwxrwx    2 1000     1000         847 Apr  2  2022 .
+drwxrwxrwx   17 1000     1000         213 Jan 17  2022 ..
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 ash -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 base64 -> busybox
+-rwxrwxrwx    1 1000     1000      646.6K Apr  2  2022 busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 cat -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 catv -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 chgrp -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 chmod -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 chown -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 cp -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 cttyhack -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 date -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 dd -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 df -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 dmesg -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 dnsdomainname -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 echo -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 ed -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 egrep -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 false -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 fdflush -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 fgrep -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 fsync -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 getopt -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 grep -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 hostname -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 hush -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 iostat -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 ipcalc -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 kill -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 linux32 -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 linux64 -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 ln -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 login -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 ls -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 mkdir -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 mknod -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 mktemp -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 mount -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 mountpoint -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 mpstat -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 mv -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 netstat -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 pidof -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 ping -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 ping6 -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 printenv -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 ps -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 pwd -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 rev -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 rm -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 rmdir -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 sed -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 setarch -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 sh -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 sleep -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 stat -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 sync -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 tar -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 touch -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 true -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 umount -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 uname -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 usleep -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 vi -> busybox
+lrwxrwxrwx    1 1000     1000           7 Jan 17  2022 watch -> busybox
+
+
+/sbin/
+total 0
+drwxrwxrwx    2 1000     1000         835 Jan 17  2022 .
+drwxrwxrwx   17 1000     1000         213 Jan 17  2022 ..
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 acpid -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 arp -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 blkid -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 bootchartd -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 depmod -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 devmem -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 fdisk -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 findfs -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 flash_eraseall -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 flashcp -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 freeramdisk -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 getty -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 halt -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 hwclock -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 ifconfig -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 ifdown -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 ifenslave -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 ifup -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 init -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 insmod -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 ip -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 ipaddr -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 iplink -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 iproute -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 iprule -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 iptunnel -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 klogd -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 logread -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 losetup -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 lsmod -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 makedevs -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 mdev -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 mkdosfs -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 mkfs.vfat -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 mkswap -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 modinfo -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 modprobe -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 nameif -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 pivot_root -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 poweroff -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 reboot -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 rmmod -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 route -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 setconsole -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 slattach -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 sulogin -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 swapoff -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 swapon -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 switch_root -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 sysctl -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 syslogd -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 tunctl -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 udhcpc -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 vconfig -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 watchdog -> ../bin/busybox
+lrwxrwxrwx    1 1000     1000          14 Jan 17  2022 zcip -> ../bin/busybox
+
+
+/usr/bin/
+total 0
+drwxrwxrwx    2 1000     1000        1.1K Jan 17  2022 .
+drwxrwxrwx    7 1000     1000          88 Jan 17  2022 ..
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 [ -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 [[ -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 awk -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 basename -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 cal -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 clear -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 cmp -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 cryptpw -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 deallocvt -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 diff -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 dirname -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 dos2unix -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 du -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 dumpleases -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 env -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 find -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 flock -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 fold -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 free -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 ftpget -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 ftpput -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 fuser -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 groups -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 hd -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 hexdump -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 hostid -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 id -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 ipcrm -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 ipcs -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 killall -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 less -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 logger -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 logname -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 lsof -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 lsusb -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 md5sum -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 mesg -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 mkpasswd -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 nc -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 nmeter -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 nslookup -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 passwd -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 pgrep -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 pkill -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 pmap -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 printf -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 pscan -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 pstree -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 pwdx -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 readlink -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 realpath -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 renice -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 reset -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 resize -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 seq -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 smemcap -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 sort -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 sum -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 tail -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 tcpsvd -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 telnet -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 test -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 tftp -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 time -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 timeout -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 top -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 tr -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 traceroute -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 traceroute6 -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 tty -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 ttysize -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 udpsvd -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 unix2dos -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 unzip -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 uptime -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 uudecode -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 uuencode -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 vlock -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 volname -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 wc -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 wget -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 whoami -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 whois -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 xargs -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 yes -> ../../bin/busybox
+
+
+/usr/sbin/
+total 5322
+drwxrwxrwx    3 1000     1000         930 Jul 18  2022 .
+drwxrwxrwx    7 1000     1000          88 Jan 17  2022 ..
+-rwxrwxr-x    1 1000     1000        1.5M Jul 18  2022 ak_tuya_ipc
+-rwxrwxrwx    1 1000     1000         348 Jan 17  2022 burn_ethaddr_mac.sh
+-rwxrwxrwx    1 1000     1000         397 Jan 17  2022 burn_ok_led.sh
+-rwxrwxrwx    1 1000     1000         180 May 20  2022 echo_type.sh
+-rwxrwxrwx    1 1000     1000        5.2K Jan 17  2022 feed_watchdog
+-rwxrwxrwx    1 1000     1000          79 Jun 18  2022 feed_watchdog_daemon.sh
+-rwxrwxrwx    1 1000     1000         252 Jun  8  2022 free_memory.sh
+-rwxrwxr-x    1 1000     1000        9.4K Jul 18  2022 get_mcu_version
+-rwxrwxr-x    1 1000     1000        2.3M Jul 18  2022 hostapd
+-rwxrwxrwx    1 1000     1000      784.6K Jun 15  2022 hostapd_nl82011
+-rwxrwxrwx    1 1000     1000        1.5K Jan 17  2022 http_download_tutk_test.sh
+-rwxrwxrwx    1 1000     1000       17.0K May 18  2022 i2c_read_id
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 inetd -> ../../bin/busybox
+-rwxrwxrwx    1 1000     1000       37.5K Jan 17  2022 iwconfig
+-rwxrwxrwx    1 1000     1000       41.5K Jan 17  2022 iwlist
+-rwxrwxrwx    1 1000     1000       29.5K Jan 17  2022 iwpriv
+-rwxrwxrwx    1 1000     1000        5.4K Jul 18  2022 jksdk_tcp
+-rwxrwxrwx    1 1000     1000          71 Jun 18  2022 jksdk_tcp_daemon.sh
+-rwxrwxrwx    1 1000     1000         437 Mar 14  2022 link_led_ctrl.sh
+-rwxrwxrwx    1 1000     1000         295 Jan 17  2022 oem_tuya_pid.sh
+-rwxrwxr-x    1 1000     1000        2.3K Jul 11  2022 product_wifi_scan.sh
+-rwxrwxrwx    1 1000     1000        3.0K Jul 14  2022 read_sensor_id.sh
+-rwxrwxrwx    1 1000     1000         995 Jul  1  2022 read_wifi_module.sh
+-rwxrwxr-x    1 1000     1000        1.2K Jul 11  2022 restore_factory.sh
+-rwxrwxrwx    1 1000     1000         470 Jun  8  2022 sc223a_check.sh
+-rwxrwxrwx    1 1000     1000          66 Jan 17  2022 skip_product_test.sh
+-rwxrwxr-x    1 1000     1000        1.4K Jul 14  2022 start_tuya_ipc.sh
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 telnetd -> ../../bin/busybox
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 tftpd -> ../../bin/busybox
+-rwxrwxrwx    1 1000     1000         127 Jun 18  2022 tutk_test_daemon.sh
+-rwxrwxrwx    1 1000     1000         263 Jun 18  2022 tuya_daemon.sh
+lrwxrwxrwx    1 1000     1000          17 Jan 17  2022 udhcpd -> ../../bin/busybox
+-rwxrwxrwx    1 1000     1000         652 Jan 17  2022 update_tuya_config.sh
+drwxrwxrwx    2 1000     1000         132 Jul  8  2022 upgrade
+-rwxrwxrwx    1 1000     1000        1.1K Mar  7  2022 upgrade_on_sdcard.sh
+-rwxrwxrwx    1 1000     1000         579 Jun 18  2022 video_stream_detect.sh
+-rwxrwxrwx    1 1000     1000        5.0K Jul  7  2022 wifi_mode_switch.sh
+-rwxrwxrwx    1 1000     1000        2.1K Jun 22  2022 wifi_status_monitor.sh
+-rwxrwxrwx    1 1000     1000       42.7K Jan 17  2022 wpa_cli
+-rwxrwxrwx    1 1000     1000       25.4K Jan 17  2022 wpa_passphrase
+-rwxrwxrwx    1 1000     1000      397.7K Jan 17  2022 wpa_supplicant

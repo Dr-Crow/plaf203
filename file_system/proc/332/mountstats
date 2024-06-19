@@ -1,0 +1,10 @@
+device /dev/root mounted on / with fstype squashfs
+device devtmpfs mounted on /dev with fstype devtmpfs
+device tmpfs mounted on /dev with fstype tmpfs
+device proc mounted on /proc with fstype proc
+device devpts mounted on /dev/pts with fstype devpts
+device tmpfs mounted on /tmp with fstype tmpfs
+device tmpfs mounted on /run with fstype tmpfs
+device sysfs mounted on /sys with fstype sysfs
+device /dev/mtdblock6 mounted on /mnt/config with fstype jffs2
+device /dev/mmcblk0p1 mounted on /mnt/config/record with fstype vfat

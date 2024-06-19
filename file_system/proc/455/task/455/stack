@@ -1,0 +1,4 @@
+[<bf1969ac>] ssv6xxx_hci_tx_task+0xb4/0x488 [ssv6x5x]
+[<c002fe1c>] kthread+0xc8/0xe4
+[<c000a288>] ret_from_fork+0x14/0x2c
+[<ffffffff>] 0xffffffff

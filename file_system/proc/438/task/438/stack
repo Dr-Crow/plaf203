@@ -1,0 +1,6 @@
+[<c02873c0>] inet_csk_accept+0x2f8/0x338
+[<c02b4474>] inet_accept+0x38/0xdc
+[<c0239fdc>] SyS_accept4+0xbc/0x1a4
+[<c023a0d8>] SyS_accept+0x14/0x18
+[<c000a1c0>] ret_fast_syscall+0x0/0x44
+[<ffffffff>] 0xffffffff

@@ -1,0 +1,378 @@
+<6>Booting Linux on physical CPU 0x0
+<5>Linux version 4.4.192V2.1 (wm@ubuntu) (gcc version 4.9.4 (Buildroot 2018.02.7_V1.0.03-g9ff3371) ) #6 Sat Apr 2 17:18:03 CST 2022
+<6>CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=0005317f
+<6>CPU: VIVT data cache, VIVT instruction cache
+<6>Machine model: ak3918ev330 dev board
+<6>Memory policy: Data cache writeback
+<6>ANYKA CPU AK39XXEV330 (ID 0x20160101)
+<7>On node 0 totalpages: 16384
+<7>free_area_init_node: node 0, pgdat c0442984, node_mem_map c3f68000
+<7>  Normal zone: 128 pages used for memmap
+<7>  Normal zone: 0 pages reserved
+<7>  Normal zone: 16384 pages, LIFO batch:3
+<7>pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+<7>pcpu-alloc: [0] 0 
+<6>Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+<5>Kernel command line: console=ttySAK0,115200n8 root=/dev/mtdblock5 rootfstype=squashfs init=/sbin/init mtdparts=spi0.0:200K@0x0(UBOOT),4K@0x32000(ENV),4K@0x33000(ENVBK),48K@0x34000(DTB),1600K@0x40000(KERNEL),5568K@0x1D0000(ROOTFS),768K@0x740000(CONFIG) mem=64M memsize=64M
+<6>PID hash table entries: 256 (order: -2, 1024 bytes)
+<6>Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+<6>Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+<6>Memory: 27356K/65536K available (3138K kernel code, 119K rwdata, 956K rodata, 136K init, 188K bss, 38180K reserved, 0K cma-reserved)
+<5>Virtual kernel memory layout:
+<5>    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+<5>    vmalloc : 0xc4800000 - 0xff800000   ( 944 MB)
+<5>    lowmem  : 0xc0000000 - 0xc4000000   (  64 MB)
+<5>    modules : 0xbf000000 - 0xc0000000   (  16 MB)
+<5>      .text : 0xc0008000 - 0xc0407d44   (4096 kB)
+<5>      .init : 0xc0408000 - 0xc042a000   ( 136 kB)
+<5>      .data : 0xc042a000 - 0xc0447c18   ( 120 kB)
+<5>       .bss : 0xc0447c18 - 0xc0476e58   ( 189 kB)
+<6>SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+<6>NR_IRQS:126
+<3>ak39ev330_clk: CPU(JCLK): 708(Mhz) 
+<3>ak39ev330_clk: MEMDDR2(DPHY): 354(Mhz) 
+<3>ak39ev330_clk: VCLK: 320(Mhz)
+<3>ak-timer: ak_timer_init
+<6>clocksource: ak_cs_timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 159271703898 ns
+<6>sched_clock: 32 bits at 12MHz, resolution 83ns, wraps every 178956970966ns
+<6>Calibrating delay loop... 351.43 BogoMIPS (lpj=1757184)
+<6>pid_max: default: 32768 minimum: 301
+<6>Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+<6>Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+<6>CPU: Testing write buffer coherency: ok
+<6>Setting up static identity map for 0x80008400 - 0x8000843c
+<6>devtmpfs: initialized
+<6>clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+<6>futex hash table entries: 256 (order: -1, 3072 bytes)
+<6>pinctrl core: initialized pinctrl subsystem
+<6>NET: Registered protocol family 16
+<6>DMA: preallocated 256 KiB pool for atomic coherent allocations
+<6>On-chip L2 memory initialized
+<3>ak-pinctrl 20170000.gpio: ak_pinctrl_probe 1958
+<3>ak_ev330_pinctrl: ak_pinctrl_probe irq: 15
+<7>gpiochip_add: registered GPIOs 0 to 85 on device: ak-pinctrl
+<6>media: Linux media interface: v0.10
+<6>Linux video capture interface: v2.00
+<6>clocksource: Switched to clocksource ak_cs_timer
+<6>NET: Registered protocol family 2
+<6>TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+<6>TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+<6>TCP: Hash tables configured (established 1024 bind 1024)
+<6>UDP hash table entries: 256 (order: 0, 4096 bytes)
+<6>UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+<6>NET: Registered protocol family 1
+<6>squashfs: version 4.0 (2009/01/31) Phillip Lougher
+<6>jffs2: version 2.2. © 2001-2006 Red Hat, Inc.
+<7>yaffs: yaffs Installing.
+<6>jitterentropy: Initialization failed with host not compliant with requirements: 2
+<6>io scheduler noop registered (default)
+<4>AKxx uart driver init, (c) 2013 ANYKA
+<6>ttySAK0 at MMIO 0x20130000 (irq = 10, base_baud = 10000000) is a AK
+<6>console [ttySAK0] enabled
+<6>ttySAK1 at MMIO 0x20138000 (irq = 11, base_baud = 10000000) is a AK
+<6>loop: module loaded
+<6>zram: Added device: zram0
+<3>Start to init Anyka SPI Flash...
+<4>init Anyka SPI Nand Flash driver
+<7>of_get_named_gpiod_flags: parsed 'cs-gpios' property of node '/soc/spi0@20120000[0]' - status (0)
+<6>spi0 new hz is 40000000, div is 2(change).
+<6>ak spiflash probe enter.
+<3>akspi flash ID: 0x00207017
+<6>ak-spiflash spi0.0: xm25qh64a (8192 Kbytes)
+<5>7 cmdlinepart partitions found on MTD device spi0.0
+<5>Creating 7 MTD partitions on "spi0.0":
+<5>0x000000000000-0x000000032000 : "UBOOT"
+<5>0x000000032000-0x000000033000 : "ENV"
+<5>0x000000033000-0x000000034000 : "ENVBK"
+<5>0x000000034000-0x000000040000 : "DTB"
+<5>0x000000040000-0x0000001d0000 : "KERNEL"
+<5>0x0000001d0000-0x000000740000 : "ROOTFS"
+<5>0x000000740000-0x000000800000 : "CONFIG"
+<6>Init AK SPI Flash finish.
+<6>akspi master SPI0 initialize success, use for PIO mode.
+<6>i2c /dev entries driver
+<6>ak_wdt_init: watchdog register...
+<6>NET: Registered protocol family 17
+<6>sctp: Hash tables configured (established 512 bind 1024)
+<3>squashfs: SQUASHFS error: Xattrs in filesystem, these will be ignored
+<3>squashfs: SQUASHFS error: unable to read xattr id index table
+<6>VFS: Mounted root (squashfs filesystem) readonly on device 31:5.
+<6>devtmpfs: mounted
+<6>Freeing unused kernel memory: 136K
+<5>random: init: uninitialized urandom read (4 bytes read, 8 bits of entropy available)
+<5>random: swapoff: uninitialized urandom read (4 bytes read, 14 bits of entropy available)
+<5>random: mount: uninitialized urandom read (4 bytes read, 16 bits of entropy available)
+<5>random: ifconfig: uninitialized urandom read (4 bytes read, 18 bits of entropy available)
+<5>random: mount: uninitialized urandom read (4 bytes read, 18 bits of entropy available)
+<5>random: read_sensor_id.: uninitialized urandom read (4 bytes read, 23 bits of entropy available)
+<5>random: mkdir: uninitialized urandom read (4 bytes read, 24 bits of entropy available)
+<5>random: insmod: uninitialized urandom read (4 bytes read, 24 bits of entropy available)
+<4>ak_rtc: loading out-of-tree module taints kernel.
+<6>AK RTC, (c) 2018 ANYKA 
+<6>rtc register framework...
+<4>We're Using Internal RC OSC.
+<5>random: mdev: uninitialized urandom read (4 bytes read, 25 bits of entropy available)
+<6>ak-rtc rtc: rtc core: registered ak-rtc as rtc0
+<5>random: mdev: uninitialized urandom read (4 bytes read, 25 bits of entropy available)
+<4>ak-i2c 20150000.i2c0: interval_scale property is not exist
+<6>i2c-0:  AK I2C adapter
+<6>usbcore: registered new interface driver usbfs
+<6>usbcore: registered new interface driver hub
+<6>usbcore: registered new device driver usb
+<6>ak-hshcd 20200000.usb: Anyka usb host controller
+<6>ak-hshcd 20200000.usb: new USB bus registered, assigned bus number 1
+<6>ak-hshcd 20200000.usb: irq 18, io mem 0x20200000
+<6>usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>usb usb1: Product: Anyka usb host controller
+<6>usb usb1: Manufacturer: Linux 4.4.192V2.1 ak-hshcd
+<6>usb usb1: SerialNumber: Anyka usb host controller
+<6>hub 1-0:1.0: USB hub found
+<6>hub 1-0:1.0: 1 port detected
+<6>ak-hshcd 20200000.usb: Usb otg-hs controller driver initialized
+<6>[3315]:[akpcm_init:751]: akpcm_init... 
+<7>of_get_named_gpiod_flags: parsed 'speak-gpios' property of node '/soc/adc_dac@20110000[0]' - status (0)
+<6>[3326]:[akpcm_probe:576]: SPEAKER @14(lv 1) 
+<6>[3330]:[akpcm_class_setup:215]: akpcm: pcm_major 0xf9 
+<6>[3341]:[akpcm_playback_runtime_init]: playback_runtime pcm(0xc0c15300) rt 0xc0c06c00 dev 0 
+<6>[3349]:[akpcm_probe:603]: adc_list:1 
+<6>[3364]:[akpcm_capture_runtime_init]: capture_runtime pcm(0xc0c15300) rt 0xc0c07000 dev 1 
+<6>[3380]:[akpcm_loopback_runtime_init]: loopback_runtime pcm(0xc0c15300) rt 0xc0c07400 
+<6>[3396]:[akpcm_probe:672]: successful! 
+<4>AK MCI Driver  Module_init
+<6>akmci 20100000.mmc0: akmci_probe : MCI
+<7>of_get_named_gpiod_flags: parsed 'detect-gpio' property of node '/soc/mmc0@20100000[0]' - status (0)
+<6>akmci 20100000.mmc0: host->gpio_cd=41
+<7>of_get_named_gpiod_flags: can't parse 'power-pins' property of node '/soc/mmc0@20100000[0]'
+<7>of_get_named_gpiod_flags: can't parse 'cd-gpios' property of node '/soc/mmc0@20100000[0]'
+<7>of_get_named_gpiod_flags: can't parse 'cd-gpio' property of node '/soc/mmc0@20100000[0]'
+<7>akmci 20100000.mmc0: lookup for GPIO cd failed
+<7>of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/soc/mmc0@20100000[0]'
+<7>of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/soc/mmc0@20100000[0]'
+<7>akmci 20100000.mmc0: lookup for GPIO wp failed
+<6>akmci 20100000.mmc0: gclk = 160000000 Hz. div_l=199, div_h=199
+<6>akmci 20100000.mmc0: ios->clock = 400000 Hz. host->bus_clock = 400000 Hz
+<6>akmci 20100000.mmc0: Mci0 Interface.using l2dma. detect mode:gpio detect.
+<6>akmci 20108000.mmc1: akmci_probe : SDIO
+<7>of_get_named_gpiod_flags: can't parse 'power-pins' property of node '/soc/mmc1@20108000[0]'
+<7>of_get_named_gpiod_flags: can't parse 'wp-gpios' property of node '/soc/mmc1@20108000[0]'
+<7>of_get_named_gpiod_flags: can't parse 'wp-gpio' property of node '/soc/mmc1@20108000[0]'
+<7>akmci 20108000.mmc1: lookup for GPIO wp failed
+<6>akmci 20108000.mmc1: gclk = 160000000 Hz. div_l=199, div_h=199
+<6>akmci 20108000.mmc1: ios->clock = 400000 Hz. host->bus_clock = 400000 Hz
+<6>akmci 20108000.mmc1: Mci1 Interface.using l2dma.sdio irq detect mode:plugin alway.
+<3>ak_uio: register uio device successfully with irq: 2!
+<4>mmc0: host does not support reading read-only switch, assuming write-enable
+<6>akmci 20100000.mmc0: gclk = 160000000 Hz. div_l=1, div_h=1
+<6>akmci 20100000.mmc0: ios->clock = 50000000 Hz. host->bus_clock = 40000000 Hz
+<6>mmc0: new high speed SDHC card at address aaaa
+<6>mmcblk0: mmc0:aaaa SC32G 29.7 GiB 
+<6> mmcblk0: p1
+<6>number of ak video subdev: 1
+<6>ak_camera_probe 717
+<6>akmci 20108000.mmc1: gclk = 160000000 Hz. div_l=255, div_h=255
+<6>akmci 20108000.mmc1: ios->clock = 312500 Hz. host->bus_clock = 312500 Hz
+<6>ak_camera_probe 725
+<6>####connent happen @ 4294937752
+<6>usb 1-1: new high-speed USB device number 2 using ak-hshcd
+<6>usb 1-1: New USB device found, idVendor=8065, idProduct=6000
+<6>usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+<6>usb 1-1: Product: iComm USB
+<6>usb 1-1: Manufacturer: iComm
+<6>usb 1-1: SerialNumber: 1234
+<6>zram0: detected capacity change from 0 to 8388608
+<6>Adding 8188k swap on /dev/zram0.  Priority:-1 extents:1 across:8188k SS
+<3>sc2232h_probe Apr  2 2021 16:03:46
+<7>of_get_named_gpiod_flags: parsed 'reset-gpio' property of node '/soc/i2c0@20150000/camera@0x30[0]' - status (0)
+<7>of_get_named_gpiod_flags: parsed 'pwdn-gpio' property of node '/soc/i2c0@20150000/camera@0x30[0]' - status (-22)
+<3>i2c i2c-0: sc2232h Probed success, subdev:c0c10614
+<4>sensor_sys_init
+<7>of_get_named_gpiod_flags: parsed 'gpios' property of node '/gpiokeys/reset[0]' - status (0)
+<7>gpio-11 (reset): gpiod_set_debounce: missing set() or set_debounce() operations
+<6>input: gpiokeys as /devices/platform/gpiokeys/input/input0
+<6>wlan.c initWlan
+<4>
+<4>*** _import_default_cfg, /etc/ssv6x5x-wifi.cfg ***
+<4>
+<4>ssv6xxx_hci_init() start
+<6>ssv6xxx_sdio_init
+<6>ssv6xxx_usb_init
+<6>=======================================
+<6>==          TURISMO - USB            ==
+<6>=======================================
+<6>SSV6XXX_USB 1-1:1.0: CHIP ID: SSV6006C0        
+<6>Attach SSV6006 family HWIF HAL function  
+<6>Chip type a0
+<6>Load SSV6006 HWIF HAL HWIF function 
+<4>ssv6xxx_dev_probe(): SSV6X5X device "SSV6006C" found !
+<6>SSV6006C
+<6>Attach SSV6006 family HAL function  
+<6>Load SSV6006 common code
+<6>Load SSV6006C/D HAL MAC function 
+<6>Chip type a0
+<6>Load SSV6006 HAL common PHY function 
+<6>Load SSV6006C/D HAL BB-RF function 
+<6>SSV WLAN driver SSV6006C: Enable RX(ep4) acc
+<3>SSV6XXX HCI TX Task started.
+<6>CHIP TAG: 2017071400053011 
+<4>MAC address from e-fuse
+<4>EFUSE configuration
+<4>Read efuse chip identity[79000000]
+<4>r_calbration_result- 0
+<4>sar_result- 0
+<4>crystal_frequency_offset- 98
+<4>tx_power_index_1- 45
+<4>tx_power_index_2- 4
+<4>MAC address - 6c:60:eb:ac:ee:06
+<4>rate_table_1- 10
+<4>rate_table_2- 0
+<4>flash_file /tmp/flash.bin not found
+<4>str_table = 
+<4> ssv6006_if_chk_mac2: is not need to check MAC addres 2 for this model 
+<4>ssv6006_adj_config: clear hci rx aggregation setting 
+<4>ssv6006_adj_config: clear hci tx aggregation setting 
+<4>ssv6006_adj_config: not support external PA for this chip
+<4>SSV6XXX RX Task started.
+<4>ssv6xxx_usb_rx_task: nr_recvbuff=5
+<4>wait 0 ms for usb rom code ready
+<6>SSV WLAN driver SSV6006C: Disable RX(ep4) acc
+<6>SSV WLAN driver SSV6006C: Enable RX(ep4) acc
+<6>Using firmware "ssv6x5x-sw.bin".
+<6>SSV WLAN driver SSV6006C: Jump to ROM
+<6>Firmware version 7620
+<4>chan change ch 6, type 1, off_chan 0
+<4>INIT SSV CONTROL GENERIC NETLINK MODULE
+<6>ieee80211 phy0: SSV6X5X of iComm-semi
+<6>usbcore: registered new interface driver SSV6XXX_USB
+<4>FAT-fs (mmcblk0p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+<5>random: nonblocking pool is initialized
+<6>zram: Added device: zram1
+<4>zram: 505 (cp) Attribute mem_used_total (and others) will be removed. See zram documentation.
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK
+<6>_xfer_read: Write i2c addr,NACK

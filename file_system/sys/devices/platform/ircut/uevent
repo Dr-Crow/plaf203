@@ -1,0 +1,5 @@
+OF_NAME=ircut
+OF_FULLNAME=/ircut
+OF_COMPATIBLE_0=anyka,ak39ev330-ircut
+OF_COMPATIBLE_N=1
+MODALIAS=of:NircutT<NULL>Canyka,ak39ev330-ircut

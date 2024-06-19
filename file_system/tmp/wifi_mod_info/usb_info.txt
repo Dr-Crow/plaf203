@@ -1,0 +1,2 @@
+Bus 001 Device 002: ID 8065:6000
+Bus 001 Device 001: ID 1d6b:0002

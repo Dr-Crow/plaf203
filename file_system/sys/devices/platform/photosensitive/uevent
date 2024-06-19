@@ -1,0 +1,5 @@
+OF_NAME=photosensitive
+OF_FULLNAME=/photosensitive
+OF_COMPATIBLE_0=anyka,ak39ev330-photosensitive
+OF_COMPATIBLE_N=1
+MODALIAS=of:NphotosensitiveT<NULL>Canyka,ak39ev330-photosensitive

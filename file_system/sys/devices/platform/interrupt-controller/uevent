@@ -1,0 +1,5 @@
+OF_NAME=interrupt-controller
+OF_FULLNAME=/interrupt-controller
+OF_COMPATIBLE_0=anyka,ak39ev330-ic
+OF_COMPATIBLE_N=1
+MODALIAS=of:Ninterrupt-controllerT<NULL>Canyka,ak39ev330-ic
